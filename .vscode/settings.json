@@ -1,0 +1,6 @@
+{
+    "Lua.diagnostics.disable": [
+        "missing-parameter",
+        "undefined-doc-name"
+    ]
+}
