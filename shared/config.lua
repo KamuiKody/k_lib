@@ -14,6 +14,14 @@ Config.WithdrawAmounts = {
   {label = '$100,000'},
 }
 
+-- ECG Monitor
+Config.ColorLayout = {
+   {health = 10, color = {255, 0, 0}},
+   {health = 25, color = {210, 20, 20}},
+   {health = 50, color = {250, 250, 0}},
+   {health = 75, color = {20, 200, 20}}
+}
+
 -- HACKING
 Config.MaxLives = 7
 Config.DefaultIpSpeed = 50
